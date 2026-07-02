@@ -2,6 +2,8 @@
 
 A FullStack Store Rating application where normal users can search registered stores and submit/modify ratings (1 to 5 stars). System administrators can manage accounts (admins, users, and stores) and inspect statistics. Store owners can track their store's overall performance.
 
+**Live Demo:** [storerating-web.vercel.app](https://storerating-web.vercel.app/)
+
 ## Tech Stack
 - **Backend:** ExpressJS, Sequelize (ORM), MySQL
 - **Frontend:** ReactJS (Vite, Vanilla CSS styling)
