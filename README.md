@@ -22,20 +22,18 @@ All name, address, and password inputs are validated:
 
 ### 1. Database Configuration
 Ensure MySQL is running locally on port 3306.
-- **Username:** `root`
-- **Password:** `Root@123`
-- The database (`store_rating_platform`) is created automatically by the backend on startup.
+- The database (`store_rating_platform`) will be created automatically by the backend on startup.
 
 ### 2. Configure Environment
-Create a `.env` file in the `/backend` folder containing the following lines:
+Create a `.env` file in the `/backend` folder. Provide your database credentials and secret keys:
 ```env
 PORT=5000
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=Root@123
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
 DB_NAME=store_rating_platform
-JWT_SECRET=super_secret_store_rating_jwt_token_key_2026
+JWT_SECRET=your_secure_jwt_secret_key
 ```
 
 ### 3. Run Backend (Port 5000)
@@ -56,10 +54,9 @@ npm run dev
 ---
 
 ## Default Seeding Accounts (For Testing)
-Use the following credentials to test different user roles:
+Use the following seed email accounts to test different user roles. Default passwords and structures can be viewed in the database seed configuration file (`backend/config/seed.js`):
 
-| Role | Email | Password |
-| :--- | :--- | :--- |
-| **System Administrator** | `admin@storerating.com` | `AdminPwd@123` |
-| **Normal User** | `user@storerating.com` | `UserPwd@123` |
-| **Store Owner** | `bakery@storerating.com` | `StorePwd@123` |
+- **System Administrator:** `admin@storerating.com`
+- **Normal User:** `user@storerating.com`
+- **Store Owner:** `bakery@storerating.com`
+
