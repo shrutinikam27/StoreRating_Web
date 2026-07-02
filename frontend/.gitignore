@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================================================================
+# DEVELOPER DOCUMENTATION & NEXT STEPS
+# =========================================================================
+# Environment configuration files (.env, .env.local) are ignored in Git
+# to prevent checking in local database secrets or API tokens.
+#
+# Quickstart Guide:
+#
+# 1. Database Setup:
+#    - MySQL server must be active on port 3306.
+#    - Default testing credential password: Root@123
+#    - The database (store_rating_platform) is created automatically by the backend.
+#
+# 2. Run Backend (Port 5000):
+#    - Navigate to '/backend' directory.
+#    - Ensure you have a '.env' file configured.
+#    - Run: npm install
+#    - Run: npm run dev
+#
+# 3. Run Frontend (Port 5173):
+#    - Navigate to '/frontend' directory.
+#    - Run: npm install
+#    - Run: npm run dev
+# =========================================================================

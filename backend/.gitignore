@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+
+# Environment files (DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# =========================================================================
+# DEVELOPER DOCUMENTATION & NEXT STEPS
+# =========================================================================
+# The '.env' configuration is ignored to prevent database passwords
+# and JWT tokens from being checked into the repository.
+#
+# To setup and run the backend locally:
+#
+# 1. Create a '.env' file in this '/backend' directory with:
+#    PORT=5000
+#    DB_HOST=127.0.0.1
+#    DB_PORT=3306
+#    DB_USER=root
+#    DB_PASSWORD=Root@123
+#    DB_NAME=store_rating_platform
+#    JWT_SECRET=super_secret_store_rating_jwt_token_key_2026
+#
+# 2. Database Administration:
+#    - MySQL server must be active on localhost:3306.
+#    - User: root, Password: Root@123
+#    - The database (store_rating_platform) is created automatically on start.
+#
+# 3. Start Backend:
+#    - Run: npm install
+#    - Run: npm run dev  (runs nodemon on port 5000)
+#
+# 4. Start Frontend:
+#    - Navigate to '/frontend' folder.
+#    - Run: npm install
+#    - Run: npm run dev  (runs Vite on http://localhost:5173/)
+# =========================================================================
