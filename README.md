@@ -54,7 +54,7 @@ npm run dev
 ---
 
 ## Default Seeding Accounts (For Testing)
-Use the following seed email accounts to test different user roles. Default passwords and structures can be viewed in the database seed configuration file (`backend/config/seed.js`):
+Use the following seed email accounts to test different user roles. The default passwords follow the pattern `[Role]Pwd@123` (e.g., `AdminPwd@123` for admin, `UserPwd@123` for normal users, and `StorePwd@123` for store owners):
 
 - **System Administrator:** `admin@storerating.com`
 - **Normal User:** `user@storerating.com`
