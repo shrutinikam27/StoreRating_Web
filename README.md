@@ -62,3 +62,19 @@ Use the following seed email accounts to test different user roles. The default 
 - **Normal User:** `user@storerating.com`
 - **Store Owner:** `bakery@storerating.com`
 
+---
+
+## Screenshots
+
+### 1. Login & Registration Panel
+![Login View](./screenshots/login.png)
+
+### 2. System Administrator Dashboard
+![Admin Dashboard](./screenshots/admin_dashboard.png)
+
+### 3. Normal User Dashboard
+![Normal User Dashboard](./screenshots/user_dashboard.png)
+
+### 4. Store Owner Dashboard
+![Store Owner Dashboard](./screenshots/store_owner_dashboard.png)
+
